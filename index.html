@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Defaced by pexza</title>
+    <style>
+        body {
+            color: white; /* Set text color to white for visibility */
+            text-align: center; /* Center all text inside the body */
+            margin: 0; /* Remove default margins */
+        }
+
+        h1 {
+            color: red;
+            font-size: xx-large;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-style: italic;
+        }
+
+        h2 {
+            color: red;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: xx-large;
+            font-style: italic;
+        }
+
+        p {
+            color:gold;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size:larger;
+            font-style:italic;
+
+        }
+      
+
+    </style>
+
+    <style>
+        body {
+            background-color: black;
+            background-size: cover; /* Makes the background image zoomed out */
+            background-repeat: no-repeat; /* Prevents the image from repeating */
+            background-position: center; /* Centers the image */
+            margin: 0; /* Removes default body margins */
+            height: 100vh; /* Sets the height of the body to the viewport height */
+        }
+    </style>
+</head>
+<body>
+    <img src="https://media.tenor.com/K-PrtTwBAUcAAAAM/skill-issue.gif.gif"
+        width="220" height="200">
+    <h1>YOU GOT DEFACED BY <span class="glow">PEXZA</span></h1>
+    <br><br>
+    <h2>Your site sucked anyway</h2>
+    <br><br>
+    <p>Pexza was here</p>
+    <audio id="audioElement" src="audio.mp3"></audio>
+    <script>
+        const audio = document.getElementById('audioElement');
+    
+        function playAudio() {
+            audio.play().catch(err => console.error('Playback failed:', err));
+            document.removeEventListener('click', playAudio); // Ensure it only triggers once
+        }
+    
+        document.addEventListener('click', playAudio);
+    </script>
+
+
+</body>
+</html>
